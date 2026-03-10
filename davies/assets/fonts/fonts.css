@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+@font-face {
+    font-family: "Milkshake";
+    src: url("./MILKSHAKE-REGULAR.OTF") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Grift";
+    src: url("./GRIFT-REGULAR.OTF") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "GRIFT-BLACK";
+    src: url("./GRIFT-BLACK.OTF") format("opentype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
