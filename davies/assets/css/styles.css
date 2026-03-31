@@ -4577,7 +4577,7 @@ button.animate-btn::after,
 @media (min-width: 1200px) {
   .section-process .swiper-process {
     overflow: visible;
-    padding-left: 100px;
+    padding-left: 0;
   }
   .section-process .swiper-wrapper {
     display: flex;
@@ -4589,15 +4589,15 @@ button.animate-btn::after,
     z-index: 1;
   }
   .section-process .swiper-slide:not(:first-child) {
-    left: -5%;
+    left: 0;
   }
   .section-process .swiper-slide:nth-child(2) {
-    margin-top: 72px;
-    left: -5%;
+    margin-top: 0;
+    left: 0;
   }
   .section-process .swiper-slide:nth-child(3) {
-    margin-top: 144px;
-    left: -10%;
+    margin-top: 0;
+    left: 0;
   }
   .section-process .swiper-slide:hover {
     z-index: 2;
@@ -4620,15 +4620,15 @@ button.animate-btn::after,
     min-width: 509px;
   }
   .section-process .swiper-slide:not(:first-child) {
-    left: -139px;
+    left: 0;
   }
   .section-process .swiper-slide:nth-child(2) {
-    margin-top: 72px;
-    left: -139px;
+    margin-top: 0;
+    left: 0;
   }
   .section-process .swiper-slide:nth-child(3) {
-    margin-top: 144px;
-    left: -278px;
+    margin-top: 0;
+    left: 0;
   }
 }
 @media (max-width: 1199px) {
@@ -4697,6 +4697,14 @@ button.animate-btn::after,
   max-height: 666px;
   aspect-ratio: 0.8003003003;
   filter: grayscale(100%);
+}
+.section-about-me .davies-video img.video {
+  width: 100%;
+  height: auto;
+  max-height: 666px;
+  object-fit: cover;
+  aspect-ratio: auto;
+  display: block;
 }
 .section-about-me .davies-video .overlay {
   position: absolute;
@@ -6193,6 +6201,12 @@ button.animate-btn::after,
 .wg-process .title {
   margin-bottom: 24px;
 }
+.wg-process .title .link {
+  font-size: 80px;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.2;
+}
 .wg-process .br-line {
   background-color: var(--white-16);
   display: flex;
@@ -6205,6 +6219,30 @@ button.animate-btn::after,
 }
 .wg-process .bot .img-item {
   flex-shrink: 0;
+}
+.wg-process .bot .img-item .img-item-text {
+  display: inline-flex;
+  width: 91px;
+  height: 78px;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 6px;
+  white-space: normal;
+  word-break: break-word;
+}
+.wg-process .bot .bot-center-text {
+  flex-basis: 100%;
+  text-align: center;
+  margin: 0 auto;
+  color: var(--white) !important;
+  font-size: 24px;
+  font-weight: 700;
 }
 .wg-process .content {
   display: flex;
